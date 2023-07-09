@@ -1,0 +1,33 @@
+
+.single__award{
+    background: #132347;
+    padding: 20px;
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(137, 247, 255);
+}
+.award__item{
+    width: 47%;
+    margin-bottom: 15px;
+}
+.award__title span{
+    font-weight: 300;
+    color: white;
+    opacity: 70% !important;
+    font-size: .8rem;
+}
+.award__year{
+    color: white;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+    .award__title{
+        font-size: .8rem;
+    }
+    .award__title span{
+        font-size: .7rem;
+    }
+    .award__year{
+        font-size: .7rem;
+    }
+}

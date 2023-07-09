@@ -1,0 +1,35 @@
+.form{
+    width: 100%;
+    background: #132347;
+    padding: 30px;
+    border-radius: 5px;
+}
+.form__input input,
+.form__input textarea{
+    width: 100%;
+    padding: 10px 15px;
+    color: white;
+    margin-bottom: 15px;
+    background: #102048;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: .8rem;
+}
+.submit__btn{
+    margin-top: 15px;
+    padding: 7px 25px;
+    font-size: .9rem;
+    background: rgb(137, 247, 255);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+    .submit__btn {
+        padding: 5px 25px;
+        font-size: .8rem;
+    }
+}
